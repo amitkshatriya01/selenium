@@ -15,6 +15,7 @@ public class AppTest
     @Test
     public void shouldAnswerWithTrue()
     {
+        System.out.println("This test is from another repo, called by jenkinsfile");
         assertTrue( true );
     }
 }
